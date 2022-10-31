@@ -1,10 +1,10 @@
-# Are Large Pre-Trained Language Models Leaking Your Personal Information?
+# Language Model Memorization vs Association
 
 The code and data for "[Are Large Pre-Trained Language Models Leaking Your Personal Information?](https://arxiv.org/abs/2205.12628)" (Findings of EMNLP '22)
 
 ## Introduction
 
-*Are Large Pre-Trained Language Models Leaking Your Personal Information?* We analyze whether Pre-Trained Language Models (PLMs) are prone to leaking personal information. Specifically, we query PLMs for email addresses with contexts of the email address or prompts containing the owner's name. We find that PLMs do leak personal information due to memorization. However, since the models are weak at association, the risk of specific personal information being extracted by attackers is low.
+*Are Large Pre-Trained Language Models Leaking Your Personal Information?* We analyze whether Pre-Trained Language Models (PLMs) are prone to leaking personal information. Specifically, we query PLMs for email addresses with contexts of the email address or prompts containing the owner's name. We find that PLMs do leak personal information due to **memorization**. However, since the models are weak at **association**, the risk of specific personal information being extracted by attackers is low.
 
 How does GPT-3 answer this question?
 <img width="1559" alt="image" src="https://user-images.githubusercontent.com/47152740/198936706-cedccbb5-2b1c-415e-988c-7bffbb343686.png">
